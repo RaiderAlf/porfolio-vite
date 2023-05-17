@@ -1,0 +1,48 @@
+.FooterDiv {
+    padding: 0;
+    padding-right: 1rem;
+    background-color: #2c2c2c;  
+    box-shadow: 0 -8px 15px #85858552;
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.LinkDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem;
+    list-style-type: none;
+}
+
+.LinkDiv a {
+    text-decoration: none;
+    color: #ffffff;
+    display: grid;
+    place-content: center;
+}
+
+.RegDiv {
+    padding: 0 1rem;
+    color: #6b6b6b;
+}
+
+@media (prefers-color-scheme: light) {
+    .FooterDiv {
+      color: #213547;
+      background-color: #ededed;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  }

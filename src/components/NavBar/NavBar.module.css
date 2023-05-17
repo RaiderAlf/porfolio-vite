@@ -1,0 +1,42 @@
+.HeaderDiv {
+    padding: .5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #474747;
+    border-radius: 10px;
+    box-shadow: 0 8px 5px #000000;
+    font-family: 'Poppins';
+}
+
+.imgLogo {
+    border-radius: 10px;
+}
+
+.navList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 0 2rem ;
+}
+
+.navList li {
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: light) {
+    .HeaderDiv {
+        color: #213547;
+        background-color: #ffffff;
+        box-shadow: 0 5px 5px #7e7e7e;
+
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  }
